@@ -1,4 +1,6 @@
 (lp1
-S'fred'
+S'max'
 p2
+aS'Fred'
+p3
 a.
