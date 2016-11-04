@@ -8,12 +8,17 @@ amountofstudents = len(tablenames)
 highscore = -65
 highscorers = []
 for i in range(amountofstudents):
-    if totalmark[i] >= highscore:
+    if totalmark[i] > highscore:
+        highscorers = []
+        highscorers.append(tablenames[i])
+        highscore = totalmark[i]
+    elif totalmark[i] == highscore:
         highscorers.append(tablenames[i])
         highscore = totalmark[i]
     else:
-        print 'Highscorers: ', highscorers
+        pass
+print 'Highscorers: ', highscorers
     
-    
+
     
     
