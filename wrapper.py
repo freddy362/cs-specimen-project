@@ -15,3 +15,4 @@ os.remove('totalmark.p' )
 import input
 import basicstats1
 import basicstats2
+raw_input("Press Enter to continue...")
