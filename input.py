@@ -31,13 +31,9 @@ def input():
                 msg = 'Would you like to input some more test scores?'
                 stillinputing = raw_input("%s (yes/no) " % msg)
 
-        print tablenames
         pickle.dump(tablenames, open("tablenames.p", "wb"))
-        print tablemark1
         pickle.dump(tablemark1, open("tablemark1.p", "wb"))
-        print tablemark2
         pickle.dump(tablemark2, open("tablemark2.p", "wb"))
-        print tablemark3
         pickle.dump(tablemark3, open("tablemark3.p", "wb"))
 
         
